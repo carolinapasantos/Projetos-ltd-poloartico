@@ -1,0 +1,224 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Sombra menu */
+.box-shadow {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1), 0 4px 8px 0 rgba(0, 0, 0, 0.1);
+}
+/* Sombra menu */
+
+/* Inicio section principal */
+
+.cor-primaria {
+    color: #0c4f9b;
+}
+
+.text {
+    text-align: center;
+    padding: 50px 0;
+}
+.text h1 {
+    margin: 29px 0 34px 0;
+}
+.text p {
+    font-size: 27px;
+}
+.bgimg {
+    height: 600px;
+    background-image: url(/imgs/ar001.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+.bgimg .btn {
+    background-color: #0c4f9b;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 100px 0;
+}
+.bgimg .btn:hover {
+    background-color: #0b5ed7;
+    color: white;
+}
+.carousel1 {
+    overflow: hidden;
+    width: 100%;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.carousel-inner1 {
+    display: flex;
+}
+
+.carousel-inner1 img {
+    margin: 0 50px;
+    height: 40px;
+    max-height: 40px;
+    flex-shrink: 0;
+    animation: slide 34s linear infinite;
+}
+@keyframes slide {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-2827px);
+    }
+}
+
+.retirar-borda {
+    border-radius: 0;
+    border-color: #0d6efd00;
+}
+
+.retirar-borda:hover {
+    border-color: #0d6efd00;
+}
+
+/* Fim section principal */
+
+/* Inicio section de depoimentos */
+.coluna {
+    float: left;
+    width: 33.33%;
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+}
+
+.section_faq {
+    width: 70%;
+    max-width: 2000px;
+}
+
+/* Fim section depoimentos */
+
+/* Inicio section de FAQ */
+.lead {
+    text-decoration: none;
+}
+/* Fim section de FAQ */
+
+footer {
+    background-color: #232323;
+    color: white;
+    text-align: center;
+}
+
+.footer2 {
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    background-color: #424242;
+}
+
+.link-footer {
+    color: #6c757d;
+    text-decoration: none;
+}
+
+.link-footer:hover {
+    color: rgb(207, 207, 207);
+}
+
+.retirar-ponto {
+    list-style: none;
+}
+
+.faca-orc {
+    background-color: #0c4f9b;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin: 100px 0;
+    text-decoration: none;
+}
+
+.faca-orc:hover {
+    background-color: #0b5ed7;
+    color: white;
+}
+
+.bg-sobrenos {
+    background-color: #3b3b3b;
+}
+
+.bgimg2 {
+    height: 300px;
+    background-image: url("imgs/img-ar.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.bgimg3 {
+    height: 300px;
+    background-image: url("imgs/img-ar.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+}
+
+.borda {
+    border: 1px solid #dadada;
+    padding: 30px;
+}
+
+.btn-formulario .btn {
+    background-color: #0c4f9b;
+}
+
+.btn-formulario .btn:hover {
+    background-color: #0b5ed7;
+}
+
+.aspas {
+    font-size: 200px;
+    color: #0c4f9b;
+}
+
+.depoimento1 {
+    position: relative;
+}
+
+.depoimento1::before {
+    position: absolute;
+    font-size: 5rem;
+    content: "❝";
+    left: -5px;
+    top: -30px;
+    color: #0c4f9b;
+}
+
+.whatsapp-icon {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 2;
+}
+
+.whatsapp-icon path {
+    transition: fill 0.2s ease;
+}
+
+.whatsapp-icon:hover path {
+    fill: #0b5ed7;
+    transform: scale(0.9);
+    transition: transform 0.3s ease;
+}

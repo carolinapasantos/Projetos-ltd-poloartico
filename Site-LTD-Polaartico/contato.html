@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Polar Ártico - Contato</title>
+
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <!-- Bootstrap CSS -->
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Inicio Navegação -->
+  <nav class="navbar navbar-expand-md navbar-light bg-light px-5 box-shadow">
+
+    <a class="nav-brand" href="#">
+      <img style="width: 200px;" src="/imgs/logo-poloartico.png" alt="Caravan">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Abrir Navegação">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="callapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">Inicio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="sobre-nos.html">Sobre nós</a>
+        </li>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="servicos.html">Serviços</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contato.html">Contato</a>
+        </li>
+        <li class="nav-item">
+          <a class="btn btn-outline-primary ms-md-2" href="https://wa.me/55021966274445" target="_blank">Faça um orçamento</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- Fim Navegação -->
+
+  <!-- Inicio seção contato -->
+  <section>
+    <div class="container py-5">
+      <div class="row">
+        <div class="col-lg-6 col-12 pb-5">
+          <h2 class="h2 pb-3" style="color: #0c4f9b;">Formulário de Contato</h2>
+          <form class="row g-3">
+            <div class="col-12">
+              <label for="inputNome" class="form-label">Nome completo</label>
+              <input type="text" class="form-control" id="inputNome" placeholder="Digite seu nome completo" required>
+            </div>
+            <div class="col-md-6">
+              <label for="inputTelefone" class="form-label">Telefone</label>
+              <input type="tel" class="form-control" id="inputTelefone" placeholder="Digite seu número" required>
+            </div>
+            <div class="col-md-6">
+              <label for="inputEmail" class="form-label">Email</label>
+              <input type="email" class="form-control" id="inputEmail" placeholder="Digite seu email" required>
+            </div>
+            <div class="col-md-6">
+              <label for="cidade" class="form-label">Cidade</label>
+              <select class="form-control" id="cidade" required>
+                <option value="">Escolha uma cidade</option>
+                <option value="cidade1">Rio de Janeiro, RJ</option>
+                <option value="cidade2">Caxias, RJ</option>
+                <option value="cidade3">Nova Iguaçu, RJ</option>
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label for="setor" class="form-label">Serviço</label>
+              <select class="form-control" id="destinatario" required>
+                <option value="">Escolha um serviço</option>
+                <option value="departamento1">Manutenção</option>
+                <option value="departamento2">Instalação</option>
+              </select>
+            </div>
+            <div class="col-12">
+              <label for="mensagem" class="form-label">Mensagem</label>
+              <textarea class="form-control" id="mensagem" rows="4" placeholder="Digite sua mensagem" required></textarea>
+            </div>
+            <div class="btn-formulario col-12 text-start">
+              <button type="submit" class="btn btn-primary btn-lg"">Enviar</button>
+            </div>
+          </form>
+        </div>
+
+        <div class=" col-lg-6 col-12">
+                <h2 class="pb-3" style="color: #0c4f9b;">Contatos</h2>
+                <p class="pb-4">Nossa equipe comercial ou técnica está pronta para atendê-lo</p>
+                <ul class="list-unstyled">
+
+                  <h3 class="h6">VOZ</h3>
+                  </li>
+                  <li><span>(21) 99999-9999</span></li>
+                  <li>
+                    <h3 class="h6 pt-3">E-MAIL</h3>
+                  </li>
+                  <li><span>poloartico@poloartico.com</span></li>
+                  <li>
+                    <h3 class="h6 pt-3">ESCRITÓRIO</h3>
+                  </li>
+                  <li><span>Rua Madureira, Madureira RJ</span></li>
+                  <li>
+                  <li class="pt-2"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6182.4583974618845!2d-43.33707578946589!3d-22.872329664738956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x99632828cfcc1f%3A0x8ea83a8e6deb0e48!2sMadureira%2C%20Rio%20de%20Janeiro%20-%20RJ!5e0!3m2!1spt-BR!2sbr!4v1729459630261!5m2!1spt-BR!2sbr" width="450" height="170" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></li>
+                </ul>
+            </div>
+        </div>
+      </div>
+  </section>
+  <!-- Fim seção contato -->
+
+  <!-- Inicio Footer -->
+  <footer>
+    <div class="container py-5">
+      <div class="row">
+
+        <div class="col-md-4 col-12">
+          <h4 class="h5">ATENDIMENTO</h4>
+          <ul class="list-unstyled text-secondary">
+            <li>poloartico@poloartico.com</li>
+            <li>21 99999-9999</li>
+            <li><span>Rua Madureira, Madureira RJ</span></li>
+            <li><span>De Seg. à Sex. das 8h às 18h</span></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4 col-12">
+          <h4 class="h5">MAPA DO SITE</h4>
+          <ul class="list-unstyled">
+            <li><a class="link-footer" href="index.html">Inicio</a></li>
+            <li><a class="link-footer" href="sobre-nos.html">Sobre nós</a></li>
+            <li><a class="link-footer" href="servicos.html">Serviços</a></li>
+            <li><a class="link-footer" href="contato.html">Contato</a></li>
+          </ul>
+        </div>
+
+        <div class="col-md-4">
+          <h4 class="h5">SERVIÇOS</h4>
+          <ul class="list-unstyled text-secondary">
+            <li>Manutenção</li>
+            <li>Conserto</li>
+            <li>Instalação</li>
+          </ul>
+        </div>
+        <!-- fundo preto final -->
+
+      </div>
+    </div>
+    <div class="footer2">
+      <p>Polo Ártico ©. Todos direitos reservados.</p>
+    </div>
+  </footer>
+  <!-- Fim Footer -->
+
+  <!-- Inicio Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  <!-- Fim Bootstrap JS -->
+
+  <script src="script.js"></script>
+
+</body>
+
+</html>
